@@ -19,7 +19,7 @@ buttons.forEach((item) => {
             display.innerText = 'Empty!';
             setTimeout(() => (display.innerText = ''), 2000)
         } else{
-            display.innerText = show(item.id);
+            display.innerText = display.innerText + show(item.id);
         }
     }
 })
